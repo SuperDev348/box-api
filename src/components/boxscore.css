@@ -1,0 +1,132 @@
+div {
+  margin: 0 !important;
+}
+
+.boxscore-container {
+  box-shadow: 5px 5px 10px lightgrey;
+  border-radius: 2px;
+}
+
+.boxscore-table {
+  table-layout: fixed;
+}
+
+table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table, th, td {
+  border: none;
+}
+
+.grey.lighten-2 {
+    background-color: #e0e0e0 !important;
+}
+.grey {
+    background-color: #9e9e9e !important;
+}
+.boxscore-cell {
+    border: 1px solid rgba(0,0,0,0.12);
+    text-align: center;
+    background-color: white;
+}
+
+td, th {
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.boxscore-row {
+  border: none !important;
+}
+
+.boxscore-cell {
+  border: 1px solid rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.boxscore-footer {
+  text-align: center;
+}
+
+.game-duration-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 601px){
+  .row .col.m5 {
+    width: 41.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+}
+@media only screen and (min-width: 601px){
+  .row .col.m2 {
+    width: 16.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+}
+
+.row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    min-height: 1px;
+}
+
+div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.card .card-content .card-title {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+.card .card-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+.card-title {
+  font-weight: bold !important;
+  padding-top: 3px !important;
+  margin-bottom: 0px !important;
+}
+.white-text {
+  color: #fff !important;
+}
+.card .card-reveal {
+  padding: 24px;
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  overflow-y: auto;
+  left: 0;
+  top: 100%;
+  height: 100%;
+  z-index: 3;
+  display: none;
+}
+
+.game-duration-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxscore-footer {
+  text-align: center;
+}

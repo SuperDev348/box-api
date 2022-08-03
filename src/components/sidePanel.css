@@ -1,0 +1,91 @@
+.side-panel-title {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 1.5%;
+  height: 15%;
+}
+
+.performer-container {
+  height: 85% !important;
+}
+
+.win-loss-badge {
+  padding: 0px 2px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* MLB SPECIFIC STYLES */
+
+.mlb-panel-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0% 15% !important;
+}
+
+.mlb-panel-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mlb-panel-line-item {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mlb-team-position-subtitle {
+  font-size: small;
+  color: #021F39;
+  font-weight: bold;
+}
+
+.mlb-stat-line {
+  font-size: small;
+  color: #021F39;
+}
+
+/* NBA SPECIFIC STYLES */
+
+.nba-panel-container {
+  height: 100%;
+  margin: 0% 5% !important;
+}
+
+.nba-performer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.nba-panel-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
+}
+
+.nba-panel-line-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nba-panel-header {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.nba-panel-header > h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 3px;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  color: white;
+  border-radius: 5px;
+}

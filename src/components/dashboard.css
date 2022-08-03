@@ -1,0 +1,15 @@
+.dashboard-item{
+  margin-bottom: 50px !important;
+  display: flex;
+}
+
+.boxscore{
+  float: left;
+  width: 50%;
+}
+
+.sidepanel{
+  float: left;
+  margin-left: 5% !important;
+  width: 45%;
+}
