@@ -1,0 +1,12 @@
+:root {
+    --global-font: "Roboto-Regular";
+    --global-background: #ffffff;
+}
+
+.app-container{
+    margin: 4vh 2vw !important;
+  }
+  
+.align-center {
+text-align: center !important;
+}
